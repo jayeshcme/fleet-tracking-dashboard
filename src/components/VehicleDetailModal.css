@@ -1,0 +1,122 @@
+.modalHeader {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 1;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.modalHeaderContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.modalHeaderLeft {
+  flex: 1;
+}
+
+.modalHeaderTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  /* margin-bottom: 8px; */
+}
+
+.modalHeaderSubtitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modalCloseButton {
+  margin-left: 16px;
+}
+
+.modalBody {
+  /* margin-top: 16px; */
+}
+
+.modalGrid {
+  display: grid;
+  grid-template: auto / 1fr 1fr;
+  gap: 16px;
+}
+
+/* .modalRow {
+  display: flex;
+  gap: 16px;
+} */
+
+.modalStack {
+  flex: 1;
+  padding: 16px;
+  border-left: 4px solid #1976d2;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #edf1f8;
+  border-radius: 8px;
+  /* margin-top: 8px; */
+}
+
+.modalStackHeader {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.modalStackIcon {
+  color: grey;
+  height: 14px !important;
+  width: 14px !important;
+}
+
+.modalStackLabel {
+  /* Value container */
+  color: grey;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.errorMessage {
+  margin-top: 16px;
+  font-size: 0.875rem;
+  color: #d32f2f;
+}
+
+.modalTitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.modalSubtitle {
+  font-size: 0.875rem;
+  line-height: 1.43;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.modalStackValue {
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.progressBar {
+  height: 8px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+
+.progressLabel {
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: right;
+}
